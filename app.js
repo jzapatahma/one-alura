@@ -1,6 +1,6 @@
 var urlPagina;
 function llamarDesafio(urlPagina) {
-    window.open('http://'+urlPagina, "_self");
+    window.open('http://'+ urlPagina, "_self");
 }
 
 const menu = document.querySelector("#id-menu");
