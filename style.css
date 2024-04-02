@@ -127,6 +127,22 @@ main{
     font-size: 20px;
     font-weight: bold;
 }
+.grupo-botones{
+    color: rebeccapurple;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+}
+.boton-inmersion{
+    background-color: rgba(0,0,0,0.5);
+    width: 4em;
+    height: 1.5em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .boton-desafio{
     background-color: rgba(0,0,0,0.5);
     width: 7em;
@@ -136,6 +152,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+.boton-inmersion:hover,
 .boton-desafio:hover{
     color: white;
     box-shadow: 0 0 20px orange;
